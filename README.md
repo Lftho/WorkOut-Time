@@ -14,9 +14,10 @@ Na terceira opção "Informa qual é a data que você irá treinar ou já treino
 
 Execute na opção "Add+" para transferir os dados para a planilha
 Quando informa todos os REQUISITOS acima é só aperta em "Add+", que no caso seria "adicionar" e vai transferir todos os dados para a planilha.
-Sobre o sistema de Workout Log ou Execite o seu Treino
 
+Sobre o sistema de Workout Log ou Execite o seu Treino
 Se você decidiu treinar para alguma modalidade para obter uma boa performance, a planilha de treino é que vai te dar direcionamento para o caminho correto. Às vezes vemos pessoas que treinam absurdamente e nunca se cansam, nunca estão doentes, cada mês estão mais fortes naquilo que se propõem a fazer, pode ter certeza que estão seguindo um plano muito bem orientado por um Profissional da área da Educação Física e outros profissionais da área da saúde. Mas para o que serve as tão faladas planilhas de treino? Elas servem para desenvolver habilidades naquela pessoa respeitando as fases, para evitar lesões, evitar desgastes desnecessários, respeitar o tempo de descanso do corpo e construir uma evolução gradativa.
+
 Teste A - Realizado, porém faltando um detalhe
 1.Na primeira opção podemos colocar de duas maneiras o horário, primeiras delas é, podemos colocar digitando no teclado ou na segunda maneira é necessário escolhar pelo próprio mouse como se fosse uma "combobox".
 2.Na segunda opção, a combobox te trás dados das quais os treinos serão feitos naquele dia, você precisa escolher. Neste caso, você só pode escolher UM único esporte/treino.
