@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ficha técnica </title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/log.css"> <!-- Estilo da simulacao -->
+	<link rel="stylesheet" href="css/tcal.css"> <!-- Estilo do calendario  -->
+</head>
+<body class="page-wrapper">
+	<table>
+		<tr>
+			<td>
+				<h2>Workout</h2>
+				<form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+					<div>
+						<label for="temp"> 1. Report time / hs:</label><label class="validation-error hide" id="fullTimeValidationError">Por favor, preencher*</label>
+						<input type="time" name="fullTime" class="amount" id="fullTime" value=""> &nbsp;
+						<img src="img/tempo.png"  height="28px">
+					</div>
+					<div>
+						<label class="tipo">2. Choose the type of training: </label>
+						<select id="sport">
+							<option value="Run">Run</option> 
+							<option value="Bike">Bike</option>
+							<option value="Academy">Academy</option>
+							<option value="Soccer">Soccer</option>
+							<option value="Skate">Skate</option>
+						</select> &nbsp;
+						<img src="img/corrida.ico" height="20px";>
+					</div>
+					<div>
+						<label>3. Confirm the date of your training: </label>
+						<input type="text" name="date" class="tcal" id="date" value=""> &nbsp;&nbsp;
+						<img src="img/calendario.png"  height="28px">	
+					</div>
+					<div  class="form-action-buttons">
+						<input type="submit" value="Add+" id="button">
+					</div>
+				</form>
+			</td>
+			<td>
+				<table class="list" id="employeeList" >
+				<thead>
+					<tr>
+						<th id="time">Time </th>
+						<th>Type</th>
+						<th>Date</th>
+						<th></th>
+					</tr>
+				</thead>
+					<tbody>
+					</tbody>
+				</table>
+				<div  class="form-action-buttons">
+					<label><h4>Horas Treinadas</h4></label>
+					<input type="text" value="" readonly id="total_amount">
+				</div>
+			</td>
+		</tr>
+	</table>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mask.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/script.js"></script> <!-- Codigo da planilha-->
+<script src="js/tcal.js"></script> <!-- Resource jQuery Calendar -->
+</body>
+</html>

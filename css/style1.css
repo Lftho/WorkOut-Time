@@ -1,0 +1,10 @@
+/* Space out content a bit */
+body, html {
+  position: fixed;
+  background-size: cover; 
+}
+
+.page-wrapper {
+  position: fixed;
+  background: url(../img/treino-3.jpg) no-repeat center;
+}
